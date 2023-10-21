@@ -1,0 +1,1034 @@
+/* tawnyCollar #251887 made this css */
+/* do NOT remove credit under any circumstances*/
+/* this specific CSS is ONLY for the use of user #287762. do not use unless give explicit permission*/
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+/*background*/
+/*mobile background*/
+@media screen and (max-width: 767px){
+  body {
+    background: url('https://github.com/ghostsofsteel/287762/blob/main/desktop.jpg?raw=true') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    background-size: cover;
+    font-family:  'Lilita One', cursive;
+    color: #d598d9;
+	  
+  }
+        
+  html:not(.nolayout) body:after {
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:160vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url('https://github.com/ghostsofsteel/287762/blob/main/desktop.jpg?raw=true') center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+      background-size: cover;
+      font-family:  'Lilita One', cursive;
+      color: #d598d9; 
+  }
+	
+}
+/* desktop background */
+
+@media screen and (min-width: 768px){
+body {
+	background: url('https://github.com/ghostsofsteel/287762/blob/main/desktop2.png?raw=true') center center fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family:  'Lilita One', cursive;
+	font-size: 18px !important;
+	color: #d598d9;}
+ * {cursor: url(https://cur.cursors-4u.net/food/foo-6/foo514.cur), auto !important;} 
+}
+/*logo replacer*/
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+content: url('https://github.com/ghostsofsteel/287762/blob/main/ezgif.com-resize_65.gif?raw=true');
+}
+/* all caves image/pregnant lions image*/
+div.cave-grid>img {
+content: url('https://github.com/ghostsofsteel/287762/blob/main/fimage.png?raw=true')!important;
+padding-left: 0%;
+height: 120px;
+width:250px;
+opacity: 1;
+}
+a[href$="257166"]>div.cave-grid>img {
+content: url("https://github.com/ghostsofsteel/287762/blob/main/dimage.png?raw=true")!important;
+padding-left: 0%;
+height: 120px;
+width:250px;
+opacity: 1;
+}
+a[href$="351669"]>div.cave-grid>img {
+content: url("https://github.com/ghostsofsteel/287762/blob/main/gimage.png?raw=true")!important;
+padding-left: 0%;
+height: 120px;
+opacity: 1;
+}
+a[href$="234494"]>div.cave-grid>img {
+content: url("https://github.com/ghostsofsteel/287762/blob/main/timage.png?raw=true")!important;
+padding-left: 0%;
+height: 120px;
+width:250px;
+opacity: 1;
+}
+a[href$="316615"]>div.cave-grid>img {
+content: url("https://github.com/ghostsofsteel/287762/blob/main/himage.png?raw=true")!important;
+padding-left: 0%;
+height: 120px;
+width:250px;
+opacity: 1;
+}
+a[href$="231774"]>div.cave-grid>img {
+content: url("https://github.com/ghostsofsteel/287762/blob/main/mimage.png?raw=true")!important;
+padding-left: 0%;
+height: 120px;
+width:250px;
+opacity: 1;
+}
+a[href$="227854"]>div.cave-grid>img {
+content: url("https://github.com/ghostsofsteel/287762/blob/main/pimage.png?raw=true")!important;
+padding-left: 0%;
+height: 120px;
+width:250px;
+opacity: 1;
+}
+/* featured lioness image */
+.lionImage img:first-child {
+visibility: hidden;
+}
+.lionImage {
+background: url('https://github.com/ghostsofsteel/287762/blob/main/kimage.png?raw=true') no-repeat;
+}
+/* unsorted cave */
+a[href$="unsorted.php?id=287762"]>div.cave-grid>img {
+content: url('https://github.com/ghostsofsteel/287762/blob/main/rimage.png?raw=true')!important;
+padding-left: 0%;
+height: 120px;
+width:250px;
+opacity: 1;
+}
+/* pride overview cave */
+a[href$="lionoverview.php?id=287762"]>div.cave-grid>img {
+content: url('https://github.com/ghostsofsteel/287762/blob/main/bimage.png?raw=true')!important;
+padding-left: 0%;
+height: 120px;
+width:250px;
+opacity: 1;
+}
+/* color behind den names */
+.cave-grid,
+.mound-grid {
+background: rgba(105, 28, 78, 0.7);
+border: #8a5bb0 2px ridge;
+text-shadow: 1px 1px 3px #0d011c;
+border-radius: 10px !important;
+max-height:150px;
+}
+/* da mounds */
+.mound-grid img {
+background: url('https://github.com/ghostsofsteel/287762/blob/main/ezgif.com-resize_21.png?raw=true');
+width: 0;
+height: 0;
+padding-top: 80px;
+padding-right: 130px;
+max-height:150px;
+opacity: 1;
+
+}
+
+/*Gift Image*/
+table#player.table img.floatleft {
+content: url('https://media2.giphy.com/media/MeU2qH560mCGAxPnvN/200w.gif?cid=82a1493b5a11y52mwqrxoyku94hb7qzjk5fmgomvmcpe6w72&ep=v1_gifs_related&rid=200w.gif&ct=s') !important;
+opacity: .9;
+}
+
+/* links and hover colors */
+a:link,
+a:visited {
+color: #d598d9 !important;
+transition: 0.8s !important;
+font-size: 16px !important;
+text-shadow: 1px 1px 3px #0d011c;
+
+}
+a:hover {
+color: #221c42!important;
+transition: .5s!important;
+}
+/* lion and user avatar opacity */
+div#lion_image {
+opacity: 0.6;
+}
+table#player img {
+opacity: 0.6;
+}
+/* lion and user avatar */
+div#lion_image {
+border-radius: 5% !important;
+overflow: hidden;
+margin-top: 19px;
+margin-left: 6px;
+}
+table#player img {
+border-radius: 5% !important;
+overflow: hidden;
+}
+
+.feature {
+background: #5497d6 !important;
+color: #8a5bb0 !important;
+border: 1px solid #221c42 !important;
+border-radius: 10px !important;
+}
+/* topbar */
+.topbar {
+background: rgba(74, 91, 189, 0.6);
+border: #221c42 2px ridge;
+border-top: none;
+color: #d598d9 ;
+font-size: 17px !important;
+text-shadow: 1px 1px 1px #0d011c;
+border-radius: 10px;
+box-shadow: rgba(219, 103, 215, 0.6) 0px -50px 36px -28px inset !important;
+font-family: 'Lilita One', cursive;;
+}
+
+/*navbar*/
+.navbar {
+background: rgba(34, 28, 66, 0.8);
+border-bottom: #8a5bb0 3px ridge !important;
+border-radius: 10px;
+box-shadow: rgba(219, 103, 215, 0.6) 0px -50px 36px -28px inset !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+background:rgba(34, 28, 66, .5);
+font-size: 20px !important;
+border-bottom: #8a5bb0 3px !important;
+box-shadow: rgba(219, 103, 215, 0.6) 0px -50px 36px -28px inset !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+background:rgb(17 28 93 / 50%);
+color:#db67d7 !important;
+border-radius: 15px;
+box-shadow: rgba(74, 91, 189, 0.6) 0px -50px 36px -28px inset !important;
+transition: 0.4s!important;
+}
+/* right side of main panel/main background color */
+.container.main {
+background: rgba(74, 91, 189, 0.6);
+border-left: #221c42 2px ridge;
+border-right: #221c42 2px ridge;
+border-bottom: #221c42 2px ridge;
+border-radius: 10px;
+box-shadow: rgba(34, 28, 66, 0.7) 0px 30px 90px 30px inset !important;
+text-shadow: 1px 1px 4px #09091a;
+}
+/* left side of main panel */
+.col-md-9 {
+background: none;
+border-right: none;
+color: #d598d9 !important;
+}
+/* home and den breadcrumb */
+.breadcrumb {
+background: rgba(105, 28, 78, .9) !important;
+border: #8a5bb0 2px ridge !important;
+font-size: 10px !important;
+border-radius: 10px;
+box-shadow: rgba(219, 103, 215, 0.6) 0px -50px 36px -28px inset !important;
+}
+.breadcrumb .active {
+color: #d598d9 ;
+font-size: 16px !important;
+}
+button.button, button.button:hover {
+background: rgba(07, 32, 105, .9);
+border: #8a5bb0 2px ridge;
+text-shadow: 1px 1px 3px #0d011c;
+border-radius: 10px !important;
+color: #d598d9;
+box-shadow: rgba(219, 103, 215, 0.6) 0px -50px 36px -28px inset !important;
+}
+.breadcrumb::after {
+content: "CSS by tawnyCollar#251887";
+color: #d598d9;
+font-size: 15px !important;
+position: absolute;
+right: 13%;
+z-index: 100
+}
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+.breadcrumb::after {
+right: 20%;
+}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+.breadcrumb::after {
+right: 20%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.breadcrumb::after {
+right: 22%;
+}
+}
+/* alerts */
+.alert {
+background: rgb(150, 110, 181, .7);
+border: #8a5bb0 2px ridge;
+text-align: center;
+text-shadow: 1px 1px 3px #0d011c;
+border-radius: 10px !important;
+float: none;
+color: #d598d9 ;
+box-shadow: rgba(64, 31, 89, 0.5) 0px -50px 36px -28px inset !important;
+}
+
+.alert-warning{
+background: rgba(105, 28, 78,.7);
+border: #8a5bb0 2px ridge;
+text-align: center;
+text-shadow: 1px 1px 3px #0d011c;
+border-radius: 10px !important;
+float: none;
+color: #d598d9 ;
+box-shadow: rgba(219, 103, 215, 0.6) 0px -50px 36px -28px inset !important;
+}
+.alert-danger {
+background: rgba(34, 28, 66,.7); !important;
+text-align: center;
+border: #8a5bb0 2px ridge;
+text-shadow: 1px 1px 3px #0d011c;
+border-radius: 10px !important;
+float: none;
+color: #d598d9 ;
+box-shadow: rgba(219, 103, 215, 0.6) 0px -50px 36px -28px inset !important;
+}
+/* achievement panels */
+.feature,
+div.left {
+background: rgba(105, 28, 78, 1);
+border: #8a5bb0 2px ridge;
+text-shadow: 1px 1px 3px #0d011c;
+border-radius: 10px !important;
+}
+/* energy bar, bookmarks and achievemnts */
+.panel {
+background: rgba(150, 110, 181,.7) !important;
+border: #8a5bb0 2px ridge !important;
+border-radius: 10px;
+color: #bcc2d6 !important;
+box-shadow: rgba(64, 31, 891, 0.6) 0px -50px 36px -28px inset !important;
+}
+/* the back of the energy bar */
+.progress {
+background: linear-gradient(#db67d7, #6b2069);
+}
+/* text of the energy bar */
+.progress div {
+color: #bcc2d6 !important;
+}
+/* color of the energy bar */
+.progress-bar {
+background: linear-gradient(#5497d6, #221c42);
+
+}
+/* chat details */
+.s-chat-message:nth-child(even) {
+background: rgba(150, 110, 181, 0.5) !important;
+color: #5497d6!important;
+box-shadow: rgba(64, 31, 89, 0.5) 0px -50px 36px -28px inset !important;
+border: none !important;
+}
+.s-chat-message:nth-child(odd) {
+background: rgba(219, 103, 215, 0.5) !important;
+color: #5497d6 !important;
+box-shadow: rgba(105, 28, 78, 0.5) 0px -50px 36px -28px inset !important;
+border: none !important;
+}
+.s-chat-message__pinned {
+background: rgba(150, 110, 181, 0.5) !important;
+color: #5497d6!important;
+box-shadow: rgba(64, 31, 89, 0.5) 0px -50px 36px -28px inset !important;
+border: none !important;
+}
+.s-chat-message_timestamp {
+color: #bcc2d6!important;
+}
+div#chatMessageContainer {
+border: #8a5bb0 2px ridge;
+text-shadow: 1px 1px 3px #0d011c;
+border-radius: 10px !important;
+}
+/* channel tabs */
+button#label_currentChannel {
+border: #8a5bb0 2px ridge !important;
+border-radius: 10px !important;
+color: #5497d6!important;
+text-shadow: 1px 1px 3px #0d011c;
+background: rgba(34, 28, 66, 0.5) !important;
+box-shadow: rgba(219, 103, 215, 0.5) 0px -50px 36px -28px inset !important;
+}
+/*___'s den and headers */
+h1 {
+color: #db67d7;
+font-size: 64px;
+font-family: 'Moo Lah Lah', cursive;
+text-align: center;
+}
+h2 {
+color: #5497d6;
+font-size: 28px;
+text-align: center;
+}
+h3 {
+color: #5497d6 !important;
+font-size: 18px !important
+}
+/* main lion info table */
+/* background color */
+.table {
+background: rgba(34, 28, 66, 0.7);
+border: #8a5bb0 2px ridge;
+text-shadow: 1px 1px 3px #0d011c;
+border-radius: 10px !important;
+border-collapse: separate;
+border-radius: 10px;
+}
+.table a:link
+{
+color:#bcc2d6!important;
+transition: 0.5s!important;
+}
+.table a:visited
+{
+color:#bcc2d6!important;
+transition: 0.5s!important;
+}
+.table a:active
+{
+color:#5497d6!important;
+transition: 0.5s!important;
+}
+.table a:hover
+{
+color:#d598d9 !important;
+-webkit-transform: scale(1.1);
+transition: 0.5s!important;
+}
+/* colors of the headers */
+.top,
+.bottom,
+th {
+background: rgba(105, 28, 78, 1) !important;
+color: #5497d6 !important;
+border-radius: 10px;
+}
+/* lower block of info */
+.table .left {
+background: rgba(74, 91, 189, 1)
+}
+/* color behind lower block */
+input,
+select,
+textarea {
+background: rgba(105, 28, 78, 1) !important;
+border: #8a5bb0 2px ridge !important;
+border-radius: 10px;
+box-shadow: rgba( 219, 103, 215, 0.5) 0px -50px 36px -28px inset !important;
+color: #5497d6 !important;
+text-shadow: 1px 1px 3px #0d011c;
+}
+/* level stats branch territory color backing */
+.inner-table .left {
+background: rgba(74, 91, 189, 0.8) !important;
+box-shadow: rgba(219, 103, 215, 0.6) 0px -50px 36px -28px inset !important;
+}
+/* right collumns colors */
+.inner-table .right {
+background: rgba(34, 28, 66, 0.6)!important;
+box-shadow: rgba(219, 103, 215, 0.6) 0px -50px 36px -28px inset !important;
+}
+.right_odd {
+background: rgba(34, 28, 66, 0.6)!important;
+box-shadow: rgba(219, 103, 215, 0.6) 0px -50px 36px -28px inset !important;
+}
+/* account options */
+.item-header {
+background: rgba(34, 28, 66, 1) !important;
+color: #bcc2d6 !important;
+}
+.item {
+background: rgba(105, 28, 78, 1) !important;
+border: none !important;
+}
+/* boxes */
+.boxcontainer {
+background: none;
+height: auto;
+padding: 0px;
+display: flex;
+justify-content: center
+}
+.Box1 {
+float: left;
+background: rgba(219, 103, 215, .5);
+color: #d598d9 ;
+padding: 15px;
+border: #221c42 2px ridge !important;
+box-shadow:rgba(105, 28, 78 , .5) 0px -100px 36px -28px inset !important;
+border-radius: 10px;
+margin: 5px;
+height: 300px;
+width: 350px;
+overflow: auto;
+margin-bottom: 25px;
+transition: 1s;
+}
+/* size when hovering */
+.Box1:hover {
+overflow-y: auto;
+}
+.Box2 {
+float: left;
+background: rgba(219, 103, 215, .5);
+color: #d598d9 ;
+padding: 15px;
+border: #221c42 2px ridge !important;
+box-shadow:rgba(105, 28, 78, .4) 0px -125px 50px 0px inset !important;
+border-radius: 10px;
+margin: 5px;
+height: 300px;
+width: 350px;
+overflow: hidden;
+margin-bottom: 25px;
+transition: 1s;
+}
+.Box2:hover {
+overflow-y: auto;
+}
+.Box3 {
+float: center;
+background: rgba(219, 103, 215, .5);
+color: #d598d9 ;
+padding: 15px;
+border: #221c42 2px ridge !important;
+box-shadow:rgba(105, 28, 78, .4) 0px -150px 50px 0px inset !important;
+border-radius: 10px;
+margin: 5px;
+height: 300px;
+width: 750px;
+overflow: hidden;
+margin-bottom: 25px;
+transition: height 1s, box-shadow 1s;
+}
+
+.Box3:hover {
+overflow-x: hidden;
+overflow-y: auto;
+box-shadow:rgba(105, 28, 78, .3) 0px -275px 36px 0px inset !important;
+height: 600px;
+transition: .7s!important;
+}
+/* scroll bar */
+::-webkit-scrollbar {
+width: 9px;
+height: 9px;
+}
+/* background of scroll bar */
+::-webkit-scrollbar-track {
+background: #8a5bb0;
+}
+/*thumb of scroll bar */
+::-webkit-scrollbar-thumb {
+background: #5497d6;
+border-radius: 10px;
+}
+
+.topper {
+background: none;
+padding: none;
+border: none;
+float: left;
+margin: -375px;
+height: 400px;
+width: 920px;
+position: relative;
+z-index: 0;
+overflow: hidden;
+margin-bottom: -600px;
+margin-left: 100px;
+}
+
+.pun-credit {
+		position: fixed;
+		bottom: 0px;
+		right: 10px;
+		color: #d598d9 !important;
+		font-size: 10px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		text-align: center;
+		background: rgb(183, 21, 6,0.5);
+		background: linear-gradient(90deg, rgba(219, 103, 215.5) 0%, rgba(219, 103, 215,0.5) 100%);
+		padding: 5px;
+	}
+	.pun-credit a {
+		color: #d598d9 !important;
+	}
+	.pun-credit a:hover {
+		opacity: 1 !important;
+	}
+	.pun-credit:hover {
+		opacity: 1;
+		transition: 2s;
+	}
+	.pun-table {
+		width: 580px;
+		background: url('https://github.com/ghostsofsteel/287762/blob/main/ezgif.com-resize_64.gif?raw=true') top center no-repeat;
+		border-radius: 5px;
+		opacity: 0.8;
+	}
+	.pun-spacer {
+		background: none;
+		width: 350px;
+	}
+	.pun-content {
+		background: rgba(219, 103, 215,0.5) !important;
+		text-align: justify;
+		height: 280px;
+		color: #d598d9;
+		overflow-x: hidden;
+		width: 280px;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 15px;
+	}
+	.pun-content h3 {
+		margin: 0 0 10px 0;
+		border-bottom: 1px solid #4c3c4d;
+		text-align: right;
+	}
+	.pun-content a {
+		font-weight: normal !important;
+		opacity: 0.7;
+	}
+	.pun-content a:hover {
+		opacity: 1 !important;
+	}
+	.pun-links {
+		background: rgb(34, 28, 66,0.5);
+		background: linear-gradient(90deg, rgba(234, 28, 66,.5) 0%, rgba(219, 103, 215,0.5) 100%);
+		color: #db67d7;
+		text-transform: uppercase;
+		font-size: 1px;
+		font-weight: normal;
+		letter-spacing: 1px;
+		text-align: center;
+		border-radius: 5px 5px 0 0;
+		
+	}
+	.pun-links a {
+		color: #db67d7 !important;
+	}
+	.pun-title {
+		text-align: center;
+		color: #db67d7;
+		font-size: 64px;
+		letter-spacing: 2px;
+		font-family: Gideon Roman;
+		text-transform: uppercase;
+		opacity: 0.5;
+	}
+ 
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE (Credit to Katie 106445) */
+
+@media only screen and (max-width: 767px) {
+.container.main .hidden-xs {
+display: block !important;
+}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+display: block !important;
+}
+
+@media only screen and (min-width: 1200px) {
+div.quote {
+width: 790px;
+}
+}
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+
+/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
+Codes may be edited, used in commissions or for personal use
+Please do not remove credit
+*/
+ 
+/* IN-DEN SYMBOLS/MALE/FEMALE */
+ 
+/* MALE ICON */
+img[src$="maleicon.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/ddik1vw-b7ebce53-9627-4e7a-a9cf-02300106a393.gif?raw=true')!important;
+    width:10px!important;
+ 
+}
+ 
+/* FEMALE ICON */
+img[src$="femaleicon.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/ddik2rd-b3a6b6a5-4687-4c8e-8c50-9497d89ba160.gif?raw=true')!important;
+    width:10px!important;
+ 
+}
+ 
+/* IN-DEN SYMBOLS/OTHER */
+ 
+/* SECURE LION */
+img[src$="secure.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/2a141261.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* HUNTING */
+img[src$="foothunt.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/9cfb2842.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* BROODMOTHER */
+img[src$="brood.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/14fffdb2.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* COOLDOWN */
+img[src$="hourglass.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/b3d63e35.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* PREGNANT DAY 1 */
+img[src$="preg1.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/db47g1s-95961fde-f942-438a-bdae-7171b5e8d9e9.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* PREGNANT DAY 2 */
+img[src$="preg2.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/db47iqy-6aa8fc20-a9e6-4325-9d93-0be3e1b81475.gif?raw=true')!important;
+    width:20px!important;
+}
+ 
+/* PREGNANT DAY 3 */
+img[src$="preg3.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/db47ff6-ebb9be86-fa09-4dc6-83d2-a5e6cd403072.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* PREGNANT/NO NEST */
+img[src$="nonest.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/d5f589d9.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* IN HEAT */
+img[src$="inheat.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/48354f4f.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* REVERESE BREEDING */
+img[src$="reversebreeding.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/973f608a.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* INFERTILE */
+img[src$="inheat-blue.png"] {
+    content:url('https://thumbs.gfycat.com/BitesizedDapperAmericanratsnake-size_restricted.gif')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SALE LION */
+img[src$="trading.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/db4c5w8-872c5216-6b2a-4053-a973-4bff14d915ba.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* LEVEL UP */
+img[src$="levelup.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/db47ro2-d3d7f239-c4e2-4ea4-9533-845fdeafefcc.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* HUNGERY */
+img[src$="hungry.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/db4brmj-734ec786-4df8-4ad3-96b6-184ceb1f97fb.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* MOOD/UNHAPPY */
+img[src$="unhappy.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/dc19vri-a7ce64fc-1d21-4a15-bf57-19eb71598cb6.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* OVERCROWDING/LIGHTNING BOLT */
+img[src$="overcrowding.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/d4kh3jo-1fbb34c6-20b6-479a-a0e6-207420501fd5.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* UNPROTECTED CUB */
+img[src$="unprotected.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/d56vtw6-06fc8da6-2e98-4edd-8661-8afe7c8c6af4.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SKULL/LOWSURVIVAL/DANGER */
+img[src$="danger.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/d4ap958-daf0b7c9-e3ad-49da-8064-cab8e02ed419.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* FROZEN/IMMORTAL */
+img[src$="frozen.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/d3jp7hf-0664de4f-6cb0-4493-b8fd-98f26181d61d.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+/* KING DYNASTY */
+img[src$="ancestors.jpg"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/f2u___deer_hooves_divider_by_profiledecor_dc01252-fullview.png?raw=true')!important;
+    width:185px!important;
+ 
+}
+ 
+/* PRIDE DYNASTY */
+img[src$="ancestorsfem.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/f2u___deer_hooves_divider_by_profiledecor_dc01252-fullview.png?raw=true')!important;
+    width:185px!important;
+ 
+}
+ 
+/* ACHIEVMENTS */
+img[src$="achievements.jpg"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/f2u___deer_hooves_divider_by_profiledecor_dc01252-fullview.png?raw=true')!important;
+    width:185px!important;
+ 
+}
+ 
+/* SHOWCASE */
+img[src$="showcase/banner.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/f2u___deer_hooves_divider_by_profiledecor_dc01252-fullview.png?raw=true')!important;
+    width:185px!important;
+ 
+}
+/* TIME DAY */
+img[src$="day.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/dageaf5-035e564c-f9b8-4320-8f89-2e3ada528607.gif?raw=true')!important;
+    width:15px!important;
+ 
+}
+ 
+/* TIME NIGHT */
+img[src$="night.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/d1rfpib-802ce2b2-9e60-41cd-bbcd-359c24d86297.gif?raw=true')!important;
+    width:20px!important;
+ 
+}
+ 
+/* SEASON */
+ 
+/* DRY SEASON */
+img[src$="dry.png"] {
+    content:url('https://raw.githubusercontent.com/ghostsofsteel/287762/main/giphy.webp')!important;
+    width:20px!important;
+ 
+}
+ 
+/* WET SEASON */
+img[src$="wet.png"] {
+    content:url('https://github.com/ghostsofsteel/287762/blob/main/d5si5l7-b46aeae9-de29-4213-8a60-fba95d06178c.gif?raw=true')!important;
+    width:20px!important;
+}
+/* GB/SB ICONS */
+
+/* GOLD BEETLE */
+img[src$="gold.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/db9xlyc-793434c5-0713-4966-9851-cc0cd8b74eb8.gif?raw=true')!important;
+width:20px!important;
+
+}
+
+/* SILVER BEETLE */
+img[src$="silver.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/dcvehwn-843813b8-0573-424a-a627-34c3c03ed458.gif?raw=true')!important;
+width:20px!important;
+
+}
+
+/* EVENT CURRENCY */
+
+/* JAN */
+img[src$="dermestid.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* FEB */
+img[src$="heartshell.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* MARCH */
+img[src$="beetlerhino.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* APRIL */
+img[src$="easteregg.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+
+/* MAY */
+img[src$="beetlemant.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* JUNE */
+img[src$="khepri.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* JULY MS */
+img[src$="shard.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d1qekeh-d4e518b1-882f-41cb-ae30-ec4363a1e860.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* JULY AC */
+img[src$="axion.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* AUG CB */
+img[src$="beetlecarrion.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* AUG DB */
+img[src$="bone.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d1qekeh-d4e518b1-882f-41cb-ae30-ec4363a1e860.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* SEPT JB */
+img[src$="beetlejewel.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* SEPT ET */
+img[src$="eldritch.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d1qekeh-d4e518b1-882f-41cb-ae30-ec4363a1e860.gif?raw=true')!important;
+width:30px!important;
+}
+
+/* OCT BB */
+img[src$="beetleblood.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* OCT NF */
+img[src$="nephelinefeather.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* OCT DS */
+img[src$="demonicscale.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* NOV */
+img[src$="scarabbeetle.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+/* DEC */
+img[src$="stinkbug.png"] {
+content:url('https://github.com/ghostsofsteel/287762/blob/main/d51bn8e-e2901510-16bf-4f24-9842-be2f41403343.gif?raw=true')!important;
+width:30px!important;
+
+}
+
+
+.feature {
+background: rgba(17, 25, 36, 0.6) !important;
+color: #4a4a4a !important;
+border: #8a5bb0 2px ridge;
+text-shadow: 1px 1px 3px #0d011c;
+border-radius: 10px !important;
+}
